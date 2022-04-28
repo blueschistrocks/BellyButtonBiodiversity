@@ -141,7 +141,7 @@ function buildCharts(sample) {
       marker: {
         size : sample_values,
         color: otu_ids, 
-        colorscale: "Rainbow"
+        colorscale: "Earth"
       }
     }
     ];
@@ -185,7 +185,7 @@ var metadata = data.metadata;
     // 4. Create the trace for the gauge chart.
     var gaugeData = [
     {
-      title: { text: "<b>Belly Button Washing Frequency</b> <br>Scrubs Per Week" },
+      title: { text: "<b>Belly Button Washing Frequency</b> <br>Washes Per Week" },
       value: parseFloat(washFrequency),
       type: "indicator",
       mode: "gauge+number",
