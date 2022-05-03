@@ -102,21 +102,18 @@ function buildCharts(sample) {
       type: "bar",
       orientation: "h",
       text: otu_labels.slice(0,10).reverse(),
+      marker: {color: '#17becf'},
     }];
 
     // 9. Create the layout for the bar chart. 
-    //var barLayout = {
-    //  title: "<b>Top 10 Bacteria Cultures Found</b>"
-    //};
-    //console.log(barLayout)
-
-
+  
     var barLayout = {
       title: {
       text: "<b>Top 10 Bacteria Cultures Found</b>",
       font: {
-        size: 20
+      size: 20
       },
+      color: {color: 'lightgreen',}
     }};
 
 
@@ -141,7 +138,7 @@ function buildCharts(sample) {
       marker: {
         size : sample_values,
         color: otu_ids, 
-        colorscale: "Earth"
+        colorscale: "RdBu"
       }
     }
     ];
@@ -157,7 +154,7 @@ function buildCharts(sample) {
 
 
     var bubbleLayout = {
-      title: "<b>Bacteria Cultures Per Sample</b>",
+      title: "<br><b>Bacteria Cultures Per Sample</b>",
       margin: { t: 0 },
       hovermode: "closest",
       xaxis: { title: "OTU ID" },
