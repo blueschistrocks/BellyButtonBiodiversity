@@ -12,6 +12,6 @@ The goals of this challenge were too:
 2. Create a bubble chart to visualize the relative frequency of all the bacterial species found in a donater’s navel.
 3. Complete a demographic information panel.
 
-## Link to the challenge hosted on github pages.
+## Link to the challenge website hosted via github pages.
 
 [Belly Button Biodiversity Webpage](https://blueschistrocks.github.io/BellyButtonBiodiversity/)
